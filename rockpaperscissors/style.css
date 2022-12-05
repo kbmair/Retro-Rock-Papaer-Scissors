@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: flex-end;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    background-color: black;
+    position: center;
+    overflow-x: hidden;
+    max-width: px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    line-height: 1.4;
+    text-align: center;
+}
+
+.first-heading {
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.title-2 {
+    display: block;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.label-opponenthealth {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -450px;
+    font-size: 48px;
+
+}
+
+.yh-parent {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin-top: 600px;
+    position: fixed;
+}
+
+.yourhealth1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 2% 50%;
+    background-color: red;
+    opacity: 0;
+}
+
+.yourhealth2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 2% 50%;
+    background-color: red;
+    opacity: 0;
+}
+
+.yourhealth3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 2% 50%;
+    background-color: red;
+    opacity: 0;
+}
+
+.yourhealth4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 2% 50%;
+    background-color: red;
+    opacity: 0;
+}
+
+.yourhealth5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 2% 50%;
+    background-color: red;
+    opacity: 0;
+}
+
+.anotherline {
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+
+.message {
+    position: absolute;
+    width: 900px;
+    font-size: 25px;
+    line-height: 2;
+    margin-top: -200px;
+
+
+}
+
+.input {
+    width: 600px;
+    line-height: 2;
+    height: 80px;
+    font: inherit;
+    font-size: 30px;
+    position: fixed;
+    text-align: center;
+    margin-top: 350px;
+    border-radius: 15px;
+    outline: none;
+    opacity: 0;
+
+}
+
+.submit {
+    background-color: white;
+    margin-top: 500px;
+    position: fixed;
+    padding: 10px 20px;
+    font: inherit;
+    font-size: 17px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-3000);
+    cursor: pointer;
+}
+
+.start {
+    width: 100%;
+    background: none;
+    position: fixed;
+    font: inherit;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    margin-top: 500px;
+    z-index: 3;
+    cursor: pointer;
+
+}
